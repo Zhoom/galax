@@ -1,0 +1,50 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+		<link href="main.css" rel="stylesheet" type="text/css">
+	</head>
+<jsp:useBean id="app" scope="request" class="modelo.dominio.App"></jsp:useBean>
+	<body ng-app="">
+	<a href="home.jsp">Home</a><br>
+	Preview temporario
+	<br>
+            <div id="pagina-app">
+                <div id="pagina-app-top">
+                    <img src="" class="thumb-app-t2">
+                    <div id="pagina-app-nome"><%=app.getAppNome()%></div>
+                    <div id="pagina-app-descricao"><%=app.getDescricao()%></div>
+                    <div id="pagina-app-compatibilidade">area dos icones de compatibilidade de s.o</div>
+                    <button id="pagina-app-botao-compra">Comprar por R$ <%=app.getPrecoStr()%></button>
+                </div>
+                <div id="pagina-app-mid">
+                    <div id="what">mais coisa que precisa ser implementada / outras informações sobre o app</div>
+                    <div id="pagina-app-sobre">
+                       <span id="pagina-app-span-sobre-titulo">Sobre</span>
+                        <span id="pagina-app-span-sobre-texto"><%=app.getSobreApp()%></span>
+                    </div>
+        
+                    <div id="pagina-app-requisitos">
+                        <div class="pagina-app-requisito">
+                        	Requisito Minimo:<br>
+                            OS: <br>
+                            Processador: <br>
+                            Memória: <br>
+                            Placa de Vídeo:<br>
+                            DirectX:<br>
+                            Armazenamento:<br>
+                        </div>
+                        <div class="pagina-app-requisito">
+                        	Requisito Recomendado:<br>
+                            OS: <br>
+                            Processador: <br>
+                            Memória: <br>
+                            Placa de Vídeo:<br>
+                            DirectX: <br>
+                            Armazenamento:<br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+	</body>
+</html>

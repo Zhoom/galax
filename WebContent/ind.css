@@ -1,0 +1,343 @@
+@CHARSET "ISO-8859-1";
+
+::-webkit-scrollbar {
+	width: 8px;
+	height: 8px;
+}
+
+::-webkit-scrollbar-button {
+	width: 0px;
+	height: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+	border-radius: 5px;
+	background: #333954;
+	border: 0px none #ffffff;
+}
+
+::-webkit-scrollbar-track {
+	border-radius: 9px;
+	background-color: rgba(40, 46, 75, 0.6);
+	border: 0px none #ffffff;
+}
+
+::-webkit-scrollbar-thumb:active {
+	background: #000000;
+}
+
+::-webkit-scrollbar-corner {
+	background: transparent;
+}
+
+html {
+	font-family: "Segoe UI";
+	font-size: 10pt;
+	width: 100%;
+	height: 100%;
+	background-color:#252947;
+	color:#E6E9EC;
+}s
+
+body{
+	margin:0px;
+}
+
+.basic-pub-game-info {
+	padding-left: 130px;
+	padding-top: 15px;
+	position: relative;
+	left: -88px;
+	border-top: 1px solid #333954;
+}
+
+.item-form {
+	padding: 10px;
+}
+
+.text-item-form {
+	position: absolute;
+	width: 150px;
+	text-align: right;
+	color: #E6E9EC;
+}
+
+.box-item-form {
+	position: relative;
+	padding: 6px;
+	margin-top: -5px;
+	left: 160px;
+	background: #E6E9EC;
+	border: 1px solid #282D4B;
+	border-radius: 5px;
+	color: #1C2035;
+}
+
+.box-item-form:focus {
+	outline-color: #333954;
+}
+
+.textarea-item-form {
+	min-height: 100px;
+	min-width: 320px;
+	max-height: 250px;
+	max-width: 500px;
+}
+
+.button {
+	padding:10px;
+	padding-left:40px;
+	padding-right:40px;
+	border:0px;
+	background-color:#333954;
+	color:white;
+	border-radius:6px;
+	outline-color:transparent;
+}
+
+.button:hover {
+	background-color: #4E769E;
+}
+
+.confirm {
+	position: relative;
+	margin-left: -100px;
+	margin-top: 30px;
+	width: 100%;
+	text-align: center;
+}
+
+.submit-form {
+	text-align: center;
+	position: relative;
+	height: 10px;
+	width: 10px;
+}
+
+.tabcontent {
+	display: none;
+	border-top: 1px solid #333954;
+	padding-top: 25px;
+	padding-left: 130px;
+	padding-bottom: 15px;
+	position: relative;
+	left: -88px;
+}
+
+.game-requirements-prev {
+	width: 905px;
+	border-top: 1px solid #333954;
+	position: relative;
+	left: -90px;
+}
+
+.requirements-prev {
+	width: 442px;
+	display: inline-block;
+	overflow: auto;
+	white-space: nowrap;
+}
+
+.tablinks {
+	padding: 10px;
+	position: relative;
+	left: 230px;
+	margin-top: 50px;
+	margin-bottom: 0px;
+	border: 0px;
+	background-color: #333954;
+	color: white;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	outline-color: transparent;
+}
+
+.active {
+	display:block;
+}
+
+/* Lista dos jogos */
+
+.lista-jogos{
+    
+}
+
+.info-jogo-lista{
+    display:inline-block;
+    position:relative;
+    background-color:#242B44;
+    width:720px;
+    height:50px;
+    margin:1.5px;
+    color:white;
+    text-decoration:none;
+}
+
+.thumb-jogo-t2{
+    height:50px;
+    width:100px;
+}
+
+.info-jogo-lista-titulo{
+    display:inline-block;
+    position:relative;
+    top:-20px;
+    left:10px;
+    max-width:300px;
+    width:300px;
+}
+
+.info-jogo-lista-os-compativel{
+    display:inline-block;
+    position:relative;
+    top:-20px;
+    left:20px;
+    max-width:80px;
+    width:80px;
+}
+
+.info-jogo-lista-preco{
+    display:inline-block;
+    position:relative;
+    top:15px;
+    right:15px;
+    float:right;
+    max-width:80px;
+}
+
+/* Página do App */
+/* Página do App */
+/* Página do App */
+/* Página do App */
+/* Página do App */
+/* Página do App */
+/* Página do App */
+/* Página do App */
+/* Página do App */
+
+.centralizar-app{
+	position:relative;
+	left:50%;
+	margin-left:-450px;
+	width:900px;
+}
+
+main#pagina-app{
+	margin:0px;
+    height:100%;
+    background-color:rgba(40,46,75,0.1);
+	min-width:920px;
+}
+
+#pagina-app-top{
+    height:auto;
+    width:100%;
+    background-color:#232638;
+    padding-bottom:20px;
+	padding-top:10px;
+	box-shadow: 0px 0px 10px 0px #171A26;
+}
+/*#1d2030*/
+.thumb-app-t2{
+    width:300px;
+    height:150px;
+	box-shadow: 0px 0px 10px 0px #171A26;
+	border:3px solid #2a304f;
+	border-bottom:3px solid #FFA949;
+}
+
+#thumb-app-t2-filtro{
+	position:absolute;
+	width:300px;
+    height:150px;
+	background-color:rgba(233,235,243,0.1);
+	z-index:999;
+	top:39px;
+	left:3px;
+}
+
+#app-descricao{
+    width:480px;
+    height:100px;
+    float:right;
+    word-wrap:break-word;
+	background-color:#2a304f;
+	padding:10px;
+	box-shadow: 0px 0px 10px -5px #171A26;
+}
+
+#app-compatibilidade{
+    position:relative;
+    margin-top:10px;
+    margin-left:20px;
+	width:260px;
+}
+
+#app-botao-compra{
+    width:200px;
+    height:35px;
+    margin-left:558px;
+	background-color:#FF9724;
+	border:0px;
+	border-radius:5px;
+	color:white;
+	font-weight:600;
+	box-shadow: 0px 0px 10px -3px #171A26;
+	outline-color:transparent;
+}
+
+#app-botao-compra:hover{
+	background-color:#FFA949;
+}
+
+#app-botao-compra:target{
+	background-color:black;
+}
+
+.botao-aba{
+	display:inline-block;
+	background-color:#232638;
+	border:0px;
+	padding:15px;
+	color:#E6E9EC;
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
+	box-shadow: 0px 5px 6px -2px #171A26;
+	text-decoration:none;
+}
+
+.mudar-aba{
+	display:none;
+}
+
+.mudar-aba:target{
+	display:block;
+}
+
+.aba-ativa{
+	display:block;
+}
+
+section#app-sobre article{
+    height:auto;
+    width:500px;
+    word-wrap:break-word;
+    padding:20px;
+}
+
+section#app-requisitos{
+    background-color:rgba(40,46,75,0.1);
+    height:auto;
+    width:100%;
+	border:0px;
+}
+
+.app-requisito{
+    background-color:rgba(40,46,75,0.1);
+    height:auto;
+    width:420px;
+    display:inline-block;
+    margin-top:20px;
+    margin-left:20px;
+    margin-bottom:20px;
+}
